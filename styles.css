@@ -1,0 +1,59 @@
+.header {
+   padding-top: 5rem;
+   margin-bottom: 10rem;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: calc(15px + 0.390625vw);
+}
+
+.text-content h1{
+    font-size: 4rem;
+}
+
+.text-content h5{
+    font-size: 2rem;
+}
+
+.text-content h3{
+    font-size: 2.5rem;
+    color: rgb(97, 97, 97);
+}
+
+.navbar {
+    padding: 1rem; 
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem; 
+    margin-left: 1.5rem; 
+}
+
+.fab {
+    color: black;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.black-text {
+    color: black;
+}
+
+
+
+@media (max-width: 768px) {
+    .text-content h1 {
+        font-size: 2rem; 
+    }
+
+    .text-content h5 {
+        font-size: 1.5rem; 
+    }
+
+    .text-content h3 {
+        font-size: 1.5rem; 
+    }
+}
